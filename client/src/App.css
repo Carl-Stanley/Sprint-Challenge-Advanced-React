@@ -63,7 +63,14 @@
     .25px .25px 0 #000;
     border-radius: 12px;
     background-image: url('https://miro.medium.com/max/2732/1*FjFHlDGH-aGPUesHfjmrqA.jpeg');
+
     
+}
+
+.playerCard a{
+
+  text-decoration: none;
+
 }
 
 .playerCard :hover {

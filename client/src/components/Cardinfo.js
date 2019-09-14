@@ -1,17 +1,31 @@
 import React from 'react';
 
+function getUrl(theName) {
+    
+    console.log(theName);
+    let url = "http://www.google.com/search?q=placeHolder"  
+   
+    theName = theName.replace(" ", "+");
+    
+    url = url.replace("placeHolder", theName)
+    console.log(url);
+    
+    return url;
+    
+}
+
 function Cardinfo(props) {
-     
-  
+ 
 return (
         <>
 
+        
 
         {props.data.map(soccerPlayer =>  (
             
             <div key={soccerPlayer.id} className='playerCard'>
                 <div>
-                    <h3>Name: {soccerPlayer.name}</h3>
+                    <h3><a target="_blank" href={getUrl(soccerPlayer.name)} alt="#" rel="noopener noreferrer">{soccerPlayer.name}</a></h3>
 
                     <p>Country: {soccerPlayer.country}</p>
                     
