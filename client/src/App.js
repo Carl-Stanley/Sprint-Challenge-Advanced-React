@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Card from './components/Card';
 
 
+
 class App extends Component {
   
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
     <div className="App">
       <Header />
       <Btn />
+     
       <Card />
     </div>
   );
