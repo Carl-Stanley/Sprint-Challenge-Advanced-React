@@ -23,6 +23,17 @@
 }
 
 
+@media screen and (max-width: 730px) {
+
+  .App-Header img{
+
+    width: 800px;    
+
+  }
+  
+
+}
+
 
 .App-link {
   color: #61dafb;
