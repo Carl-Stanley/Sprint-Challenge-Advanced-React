@@ -16,7 +16,7 @@ import axios from 'axios';
     componentDidMount() {
         this._isMounted = true;
         axios
-        .get(' http://localhost:5000/api/players')
+        .get('http://localhost:5000/api/players')
         .then(data => {
         if (this._isMounted) {
         this.setState({
