@@ -14,7 +14,7 @@ const Btn = () => {
     return(
         <div className="buttonDiv">
 
-        <button id="darkbtn" onClick={toggleing} className={darkMode ? "is" : "is not"}>Dank Mode</button>
+        <button id="darkbtn" onClick={toggleing} className={darkMode ? "is" : "is not"}>Dark Mode</button>
         
         </div>
 
