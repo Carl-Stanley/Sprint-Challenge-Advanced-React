@@ -10,7 +10,7 @@ function getUrl(theName,country) {
     theName = theName.replace(" ", "+");
     theName = theName.replace(" ", "+");
     theName = theName.replace(" ", "+");
-    theName = theName + "+women's+world+cup+2019+" + country;
+    theName = theName + "+women's+world+cup+2019+" + country + "+FIFA+women's+world+cup+players";
     url = url.replace("placeHolder", theName)
     //console.log(url);
     
