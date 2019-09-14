@@ -17,3 +17,13 @@ Unlike a React component, a custom Hook doesn’t need to have a specific signat
 - [x] Why is it important to test our apps?
 
 Because you can avoid bugs before they get to production and save time, and perhaps even save your job. You'll be a lot more effecient as a developer. 
+
+
+App Startup and install:
+
+yarn install in client folder
+yarn install in main folder
+yarn add axios
+node server.js 
+http://localhost:5000/api/players
+yarn start 

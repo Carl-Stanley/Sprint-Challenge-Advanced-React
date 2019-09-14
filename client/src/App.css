@@ -2,21 +2,23 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+  
+  background-color:#D6000A;
+  height: 125px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+
 }
 
 .App-link {
@@ -31,3 +33,68 @@
     transform: rotate(360deg);
   }
 }
+
+.wc {
+
+  height: 110px;
+  width: auto;
+  margin: 0px 100px 0px 100px;
+
+}
+
+.theCards {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.playerCard {
+
+  height: 175px;
+  width: 250px;
+  border: #978df1 dashed .5px;
+  margin: 5px 5px 5px 5px; 
+  box-shadow: 1px 3px #888888;
+  background-color: whitesmoke;
+  color:rgb(213, 224, 228);
+  text-shadow:
+		-.25px -.25px 0 #000,
+		.25px -.25px 0 #000,
+		-.25px .25px 0 #000,
+    .25px .25px 0 #000;
+    border-radius: 12px;
+    background-image: url('https://miro.medium.com/max/2732/1*FjFHlDGH-aGPUesHfjmrqA.jpeg');
+    
+}
+
+.playerCard :hover {
+
+  color:rgb(68, 193, 238);
+  
+ 
+}
+
+
+.buttonDiv {
+
+  width: 100%;
+  height: 25px;
+
+  margin: 10px 0px 10px 0px;
+
+}
+
+#darkbtn {
+
+  width: 125px;
+  height: 30px;
+
+  border-radius: 8px; 
+  color: whitesmoke;
+   background-color: #D6000A;
+
+}
+
