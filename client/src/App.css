@@ -12,7 +12,7 @@
   align-items: center;
   justify-content: center;
   background-image: url('./fifa.png');
-  
+  box-shadow: 0px 1px #1d1c1c;
 
 }
 
@@ -90,7 +90,7 @@
 
   border-radius: 8px; 
   color: whitesmoke;
-   background-color:#23207C;
-
+  background-color:#23207C;
+  box-shadow: .5px 2px #888888;
 }
 
