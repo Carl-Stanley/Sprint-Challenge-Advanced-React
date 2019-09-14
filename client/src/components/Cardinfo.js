@@ -7,6 +7,8 @@ function getUrl(theName,country) {
     let url = "http://www.google.com/search?q=placeHolder"  
    
     theName = theName.replace(" ", "+");
+    theName = theName.replace(" ", "+");
+    theName = theName.replace(" ", "+");
     theName = theName + "+women's+world+cup+2019+" + country;
     url = url.replace("placeHolder", theName)
     console.log(url);
